@@ -1,0 +1,82 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+body .container {
+    clip-path: polygon(50% 0%, 100% 7%, 100% 75%, 50% 100%, 0 90%, 0 0);
+    background-color: #6351eed7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+body header a {
+    color: rgba(85, 25, 25, 0.616);
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+}
+
+main section#mainimage {
+    background-color: #eeff0048;
+    padding: 25px;
+    margin: 1em auto;
+    width: 80%;
+    color: rgba(85, 25, 25, 0.616);
+    border-radius: 15px;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: -15px;
+    color: rgba(0, 0, 0, 0.363);
+}
+
+main section#mainbutton {
+    color: rgba(85, 25, 25, 0.616);
+    padding: 15px;
+    text-align: center;
+}
+
+main section#mainbutton h1 {
+    font-size: 1.8em;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+main section#mainbutton img {
+    margin-left: 170px;
+    position: relative;
+    top: -25px;
+    left: 100px;
+}
+
+main section#mainbutton button {
+    margin-top: 4px;
+    color: rgba(85, 25, 25, 0.616);
+    background-color: #eeff0048;
+    padding: 5px 55px;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+main section#mainbutton button#btn {
+    position: relative;
+    left: -275px;
+}
+
+main section#mainbutton button:hover {
+    background-color: #6351eed7;
+}
